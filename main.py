@@ -46,8 +46,8 @@ def open_text_file(name):
 
 # メイン関数
 def main():
-    args = ['', 'The Adventures of Sherlock Holmes.txt']
-    # args = sys.argv # リスト
+    # args = ['', 'The Adventures of Sherlock Holmes.txt']
+    args = sys.argv # リスト
     open_text_file(args[1])
 
 if __name__ == "__main__":
